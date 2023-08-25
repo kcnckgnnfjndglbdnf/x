@@ -1,0 +1,89 @@
+.header {
+    height: 110px;
+    width: 100%;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1642658979_78-phonoteka-org-p-fon-zvezdnoe-nebo-kosmos-88.jpg);
+}
+h1 {
+   font-family: Black Italic;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    left: 37%;
+}
+.meny {
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.men {
+    font-size: 20px;
+   margin: 10px;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+h2 {
+    font-size: 32px;
+    margin: 30px;
+}
+img {
+    width: 48%;
+    height: 400px;
+    margin: 60px;
+}
+label {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    padding: 12px;
+    font-size: 24px;
+    width: 75px;
+    color: blueviolet;
+    font-weight: bold;
+    content: '';
+   
+}
+input[type=range] {
+    -webkit-appearance:none;
+    width: 250px;
+    height: 10px;
+    border-radius: 5px;
+    background: darkorange;
+    outline: none; 
+}
+input[type=range]:focus,
+input[type=range]:active {
+    border: 0;
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: darkorange;
+    background-image: url(https://elmina.club/uploads/posts/2023-05/1684537714_elmina-club-p-ogonek-personazh-foni-instagram-18.png);
+    background-position: 0 0;
+    background-size: cover;
+    transform: scale(1.9) rotate(var(--thumb-rotate, 10deg));
+    cursor: pointer;
+    margin-top: -15px;
+    -webkit-appearance:none;
+}
+input[type=range]::-webkit-slider-thumb:active {
+    background-position: 100% 0px;
+    transform: scale(2) rotateZ(var(--thumb-rotate, 10deg));
+}
+input[type=range]::-webkit-slider-runnable-track {}
+.button {
+    color: #fff;
+}
+button {
+    margin: 20px;
+    height: 75px;
+    width: 100px;
+   background-image: url(https://phonoteka.org/uploads/posts/2022-01/1642658979_78-phonoteka-org-p-fon-zvezdnoe-nebo-kosmos-88.jpg);
+}
